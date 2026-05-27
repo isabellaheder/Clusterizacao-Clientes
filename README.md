@@ -8,11 +8,46 @@ Este projeto tem como objetivo segmentar clientes com base em comportamento de c
 - Identificar segmentos de clientes com comportamentos semelhantes  
 - Entender padrões de consumo e engajamento  
 - Apoiar estratégias de marketing direcionado  
-- Gerar insights acionáveis para retenção e monetização  
+- Gerar insights acionáveis para retenção e monetização
 
+### Dicionário de Dados:
+| Coluna               | Tipo de Dado | Descrição |
+|---------------------|-------------|----------|
+| ID                  | Numérico    | Identificador único do cliente |
+| Year_Birth          | Numérico    | Ano de nascimento do cliente |
+| Education           | Categórico  | Nível de escolaridade |
+| Marital_Status      | Categórico  | Estado civil |
+| Income              | Numérico    | Renda anual do cliente |
+| Kidhome             | Numérico    | Número de crianças no domicílio |
+| Teenhome            | Numérico    | Número de adolescentes no domicílio |
+| Dt_Customer         | Data        | Data de cadastro do cliente |
+| Recency             | Numérico    | Dias desde a última compra |
+| MntWines            | Numérico    | Valor gasto em vinhos |
+| MntFruits           | Numérico    | Valor gasto em frutas |
+| MntMeatProducts     | Numérico    | Valor gasto em carnes |
+| MntFishProducts     | Numérico    | Valor gasto em peixes |
+| MntSweetProducts    | Numérico    | Valor gasto em doces |
+| MntGoldProds        | Numérico    | Valor gasto em produtos premium |
+| NumDealsPurchases   | Numérico    | Número de compras com desconto |
+| NumWebPurchases     | Numérico    | Número de compras online |
+| NumCatalogPurchases | Numérico    | Número de compras via catálogo |
+| NumStorePurchases   | Numérico    | Número de compras em loja física |
+| NumWebVisitsMonth   | Numérico    | Número de visitas ao site por mês |
+| AcceptedCmp1        | Binário     | Aceitou campanha 1 (1 = Sim, 0 = Não) |
+| AcceptedCmp2        | Binário     | Aceitou campanha 2 (1 = Sim, 0 = Não) |
+| AcceptedCmp3        | Binário     | Aceitou campanha 3 (1 = Sim, 0 = Não) |
+| AcceptedCmp4        | Binário     | Aceitou campanha 4 (1 = Sim, 0 = Não) |
+| AcceptedCmp5        | Binário     | Aceitou campanha 5 (1 = Sim, 0 = Não) |
+| Complain            | Binário     | Cliente fez reclamação (1 = Sim, 0 = Não) |
+| Z_CostContact       | Constante   | Custo fixo de contato com cliente |
+| Z_Revenue           | Constante   | Receita fixa associada a campanhas |
+| Response            | Binário     | Respondeu à campanha atual (1 = Sim, 0 = Não) |
+
+
+
+## Resultado:
 ``k = 4`` --> escolha orientada a estratégica de negócios
 
-### Resultado:
 | Cluster | Perfil |
 |--------|-------|
 | VIP Ativo | Alto valor e alta frequência |
