@@ -10,6 +10,19 @@ Este projeto tem como objetivo segmentar clientes com base em comportamento de c
 - Apoiar estratégias de marketing direcionado  
 - Gerar insights acionáveis para retenção e monetização
 
+## Resultado:
+``k = 4`` --> escolha orientada a estratégica de negócios
+
+| Cluster | Perfil |
+|--------|-------|
+| VIP Ativo | Alto valor e alta frequência |
+| Baixo Valor Ativo | Engajados, porém com baixo gasto |
+| Baixo Valor Inativo | Clientes com baixa atividade recente |
+| VIP Inativo | Alto valor histórico, mas com risco de churn |
+
+<img width="866" height="548" alt="1126ab4d-afc5-4145-85df-7486d7502ce0" src="https://github.com/user-attachments/assets/d3a8d233-225f-4948-b740-ca6f2121b3b7" />
+___________________________________
+
 ### Dicionário de Dados:
 | Coluna               | Tipo de Dado | Descrição |
 |---------------------|-------------|----------|
@@ -45,12 +58,4 @@ Este projeto tem como objetivo segmentar clientes com base em comportamento de c
 
 
 
-## Resultado:
-``k = 4`` --> escolha orientada a estratégica de negócios
 
-| Cluster | Perfil |
-|--------|-------|
-| VIP Ativo | Alto valor e alta frequência |
-| Baixo Valor Ativo | Engajados, porém com baixo gasto |
-| Baixo Valor Inativo | Clientes com baixa atividade recente |
-| VIP Inativo | Alto valor histórico, mas com risco de churn |
